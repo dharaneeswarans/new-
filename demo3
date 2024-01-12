@@ -1,1 +1,11 @@
 
+	Scanner res=new Scanner(System.in);
+			String storestring=res.next();
+			char[]rev=new char[storestring.length()];
+			
+			for(int i=storestring.length()-1;i>=0;i--) {
+				rev[i]=storestring.charAt(i);
+				System.out.print(rev[i]);
+				
+						
+			}
